@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" href="image/Vivura icon 1.png" type="logo"/>
+  <title>Vivura | شعرك… عنوان أناقتك</title>
+  <meta name="description" content="Vivura – عناية مكثّفة لتقوية الشعر وتقليل التساقط ولمعان يدوم. شاهد النتائج واطلب الآن.">
+  <meta name="theme-color" content="#0ea5e9" />
+
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://unpkg.com/@csstools/normalize.css" />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css" />
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <!-- الخطوط -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- ملف التنسيقات الرئيسي -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- نافبار -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">
+        <img src="image/logo.jpg" alt="Vivura Logo" class="logo-img">
+        <h1>Vivura</h1>
+      </a>
+      <nav class="links" aria-label="روابط رئيسية">
+        <a href="#benefits">المزايا</a>
+        <a href="#results">قبل/بعد</a>
+        <a href="#reviews">الآراء</a>
+        <a href="#faq">الأسئلة</a>
+        <a class="btn" href="#order">اطلب الآن</a>
+        <button class="hamb" aria-label="فتح القائمة"><span></span><span></span><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- قائمة موبايل -->
+  <aside class="mobile-menu" aria-hidden="true">
+    <a href="#benefits">المزايا</a>
+    <a href="#results">قبل/بعد</a>
+    <a href="#reviews">الآراء</a>
+    <a href="#faq">الأسئلة</a>
+    <a class="btn" href="#order">اطلب الآن</a>
+  </aside>
+
+  <!-- هيرو -->
+  <section id="home" class="hero">
+    <div class="container wrap">
+      <div class="hero-copy" data-aos="fade-up">
+        <div class="kicker">حل احترافي لتقوية ولمعان الشعر</div>
+        <h2 class="title">Vivura يجعل شعرك أقوى، أكثف، وألمع — من أول استخدام</h2>
+        <p class="subtitle">تركيبة مدروسة لتقليل التساقط، تغذية الجذور، وحماية الأطراف من التقصّف. مناسب لكل أنواع الشعر.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#order">اطلب الآن</a>
+          <a class="btn secondary" href="#benefits">اعرف المزايا</a>
+        </div>
+        <ul class="hero-bullets">
+          <li>نتائج ملموسة خلال 14 يومًا*</li>
+          <li>خالي من السلفات والبارابين</li>
+          <li>موافق للاستخدام اليومي</li>
+        </ul>
+      </div>
+
+      <div class="mock" data-aos="zoom-in">
+        <div class="product-badge">عرض اليوم</div>
+        <div class="card">
+          <div class="banner">
+             <video autoplay muted playsinline width="100%">
+    <source src="videos/Vivura collection 2.mp4" type="video/mp4">
+    متصفحك لا يدعم الفيديو.
+</video>
+          </div>
+          <div class="content">
+            <div class="stars" aria-label="تقييم 4.9 من 5">
+              <img class="star" src="image/star.png" alt="" />
+              <img class="star" src="image/star.png" alt="" />
+              <img class="star" src="image/star.png" alt="" />
+              <img class="star" src="image/star.png" alt="" />
+              <img class="star" src="image/star.png" alt="" />
+            </div>
+            <br></br>
+            <h3 class="product-name">مجموعة Vivura الكاملة</h3>
+<p class="product-desc">
+مجموعة متكاملة للعناية بالشعر: شامبو غني بالفيتامينات والمعادن لتقوية الشعر ومنع التساقط،  
+كونديشنر يرطب ويترك الشعر ناعمًا وسهل التسريح،  
+سيروم مركز لتغذية بصيلات الشعر ولمعان صحي،  
+وماسك للشعر يعيد الحيوية والقوة من الجذور للأطراف.
+</p>
+<div class="features">
+  <span class="feature">✅ خالي من السلفات</span>
+  <span class="feature">✅ مناسب لكل أنواع الشعر</span>
+  <span class="feature">✅ يغذي ويرطب بعمق</span>
+  <span class="feature">✅ نتائج سريعة وملموسة</span>
+</div>
+
+            <div class="price"><span class="now">699 EGP</span><span class="old">800 EGP</span></div>
+            <a href="#order" class="btn full">اشتري الآن</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- المنتجات -->
+  <section id="products" class="products">
+    <div class="container">
+      <h3 class="section-title" data-aos="fade-up">منتجات Vivura</h3>
+      <p class="section-desc" data-aos="fade-up" data-aos-delay="80">اكتشف باقي منتجات Vivura المكملة للعناية بالشعر.</p>
+      <div class="product-grid">
+        <div class="product-card" data-aos="fade-up">
+         <video autoplay muted loop playsinline width="100%">
+    <source src="videos/Vivura shampoo.mp4" type="video/mp4">
+    متصفحك لا يدعم الفيديو.
+</video>
+          <h4>شامبو Vivura</h4>
+          <p>شامبو طبيعي لتقوية الشعر ومنع التساقط.</p>
+          <a href="#order" class="btn">اطلب الآن</a>
+        </div>
+        <div class="product-card" data-aos="fade-up" data-aos-delay="60">
+          <video autoplay muted loop playsinline width="100%">
+    <source src="videos/Vivura serum.mp4" type="video/mp4">
+    متصفحك لا يدعم الفيديو.
+</video>
+          <h4>سيروم Vivura</h4>
+          <p>سيروم مركز لتغذية بصيلات الشعر وتحسين كثافته.</p>
+          <a href="#order" class="btn">اطلب الآن</a>
+        </div>
+        <div class="product-card" data-aos="fade-up" data-aos-delay="120">
+          <video autoplay muted loop playsinline width="100%">
+    <source src="videos/Vivura mask.mp4" type="video/mp4">
+    متصفحك لا يدعم الفيديو.
+</video>
+          <h4>ماسك Vivura</h4>
+          <p>ماسك مغذي للشعر لإعادة الحيوية واللمعان الطبيعي.</p>
+          <a href="#order" class="btn">اطلب الآن</a>
+        </div>
+         <div class="product-card" data-aos="fade-up" data-aos-delay="60">
+           <video autoplay muted loop playsinline width="100%">
+    <source src="videos/Vivura conditioner.mp4" type="video/mp4">
+    متصفحك لا يدعم الفيديو.
+</video>
+          <h4>كونديشنر Vivura</h4>
+          <p>يغذي شعرك ويرطبه بعمق، ويخليه ناعم، سهل التسريح ولامع طوال اليوم.</p>
+          <a href="#order" class="btn">اطلب الآن</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- المزايا -->
+  <section id="benefits" class="features">
+    <div class="container">
+      <h3 class="section-title" data-aos="fade-up">ليه Vivura مختلف؟</h3>
+      <p class="section-desc" data-aos="fade-up" data-aos-delay="80">تركيبة فعّالة، تجربة استخدام فخمة، ونتائج سريعة تدوم.</p>
+      <div class="grid-3">
+        <article class="card item" data-aos="fade-up">
+          <div class="icon">💧</div>
+          <div>
+            <h3>ترطيب عميق</h3>
+            <p>يحافظ على ترطيب الشعر ويقلل الهيشان بدون إحساس دهني.</p>
+          </div>
+        </article>
+        <article class="card item" data-aos="fade-up" data-aos-delay="60">
+          <div class="icon">🛡️</div>
+          <div>
+            <h3>تقوية وحماية</h3>
+            <p>يدعم ألياف الشعر ويقلل التكسر ويحمي من الحرارة.</p>
+          </div>
+        </article>
+        <article class="card item" data-aos="fade-up" data-aos-delay="120">
+          <div class="icon">✨</div>
+          <div>
+            <h3>لمعان فوري</h3>
+            <p>لمعان صحي طبيعي من أول استعمال، مناسب لكل أنواع الشعر.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- قبل/بعد -->
+  <section id="results" class="compare">
+    <div class="container">
+      <h3 class="section-title" data-aos="fade-up">قبل & بعد</h3>
+      <p class="section-desc" data-aos="fade-up" data-aos-delay="80">اسحب المقبض وشاهد الفرق بنفسك.</p>
+      <div class="compare-wrap" data-aos="zoom-in">
+        <div class="compare-img">
+          <img src="image/قبل.jpeg" alt="قبل استخدام Vivura" />
+          <div class="after-layer">
+            <img src="image/بعد.jpeg" alt="بعد استخدام Vivura" />
+          </div>
+          <input type="range" min="0" max="100" value="50" class="slider" aria-label="مقارنة قبل وبعد" />
+          <span class="label before">قبل</span>
+          <span class="label after">بعد</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- آراء العملاء -->
+  <section id="reviews" class="reviews">
+    <div class="container">
+      <h3 class="section-title" data-aos="fade-up">آراء العملاء</h3>
+      <div class="swiper" data-aos="fade-up" aria-label="سلايدر آراء العملاء">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <blockquote>
+              <p>بجد فرق واضح في اللمعان وقلل الهيشان عندى.</p>
+              <footer>— مريم</footer>
+            </blockquote>
+          </div>
+          <div class="swiper-slide">
+            <blockquote>
+              <p>ريحتة لطيفة ونتيجة من أول أسبوع. هشترى تانى.</p>
+              <footer>— عمر</footer>
+            </blockquote>
+          </div>
+          <div class="swiper-slide">
+            <blockquote>
+              <p>خفّ التساقط عندي بشكل كبير خلال أسبوعين.</p>
+              <footer>— سمير</footer>
+            </blockquote>
+          </div>
+        </div>
+        <div class="swiper-pagination" aria-hidden="true"></div>
+        <div class="swiper-button-prev" aria-label="السابق"></div>
+        <div class="swiper-button-next" aria-label="التالي"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- الأسئلة الشائعة -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <h3 class="section-title" data-aos="fade-up">الأسئلة الشائعة</h3>
+      <details class="card" data-aos="fade-up">
+        <summary>هل مناسب للشعر المصبوغ؟</summary>
+        <p>نعم، مناسب وآمن على الشعر المصبوغ والاستخدام اليومي.</p>
+      </details>
+      <details class="card" data-aos="fade-up" data-aos-delay="60">
+        <summary>كل قد إيه أستخدمه؟</summary>
+        <p>مرتين إلى ثلاث مرات أسبوعيًا أو حسب الحاجة.</p>
+      </details>
+      <details class="card" data-aos="fade-up" data-aos-delay="120">
+        <summary>هل يحتاج شطف؟</summary>
+        <p>اتّبع التعليمات على العبوة؛ في العادة لا يحتاج شطف.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- الطلب -->
+  <section id="order" class="order">
+  <div class="container">
+    <h3 class="section-title" data-aos="fade-up">اطلب Vivura الآن</h3>
+    <p class="section-desc" data-aos="fade-up" data-aos-delay="80">املأ البيانات وسيتم التواصل لتأكيد الطلب.</p>
+
+    <form id="orderForm" class="card" action="https://script.google.com/macros/s/AKfycbwYnqJ4QVGixEfajuaUbjAwcggR8jsdxfIxaZY2Qxmdw0nQBfTtV8NbKRO54MCFIXZE/exec" method="POST" novalidate>
+    <input type="hidden" name="_next" value="thankyou.html">
+    <input type="hidden" name="_subject" value="طلب جديد من Vivura">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_autoresponse" value="شكراً لتقديم طلبك! سنقوم بالتواصل معك قريباً.">
+    <input type="hidden" name="_honey" value="">
+    <input type="hidden" name="_confirmation" value="تم إرسال طلبك بنجاح!">
+    <input type="hidden" name="_language" value="ar">
+    <input type="hidden" name="_email" value="">
+    <input type="hidden" name="_replyto" value="">
+  <div class="form-grid">
+    <label>الاسم الكامل
+      <input type="text" name="name" placeholder="مثال: سمير محمود" required />
+      <span class="error"></span>
+    </label>
+    <label>رقم الهاتف
+      <input type="tel" name="phone" placeholder="01xxxxxxxxx" pattern="^01[0-25][0-9]{8}$" required />
+      <span class="error"></span>
+    </label>
+    <label>البريد الإلكتروني
+      <input type="email" name="email" placeholder="مثال:dcasdvdfdsv@example.com " required />
+      <span class="error"></span>
+    </label>
+    <label>اختر المنتج
+      <select name="qty" required>
+        <option value="" disabled selected>اختر</option>
+        <option value="شامبو Vivura"> شامبو Vivura</option>
+        <option value="سيروم Vivura">سيروم Vivura</option>
+        <option value="ماسك Vivura">ماسك Vivura</option>
+        <option value="كونديشنر Vivura">كونديشنر Vivura</option>
+        <option value="مجموعة Vivura">مجموعة Vivura</option>
+      </select>
+      <span class="error"></span>
+    </label>
+    <label>المدينة
+      <input type="text" name="city" placeholder="القاهرة / الجيزة / الإسكندرية..." required />
+      <span class="error"></span>
+    </label>
+    <label class="span-2">العنوان بالتفصيل
+      <textarea name="address" rows="3" placeholder="المنطقة، الشارع، رقم العقار، علامة مميزة" required></textarea>
+      <span class="error"></span>
+    </label>
+    <fieldset class="span-2">
+      <legend>طريقة الدفع</legend>
+      <label><input type="radio" name="pay" value="دفع عند الاستلام" required /> دفع عند الاستلام</label>
+      <label><input type="radio" name="pay" value="بطاقة أونلاين" /> بطاقة أونلاين</label>
+      <label><input type="radio" name="pay" value="تحويل بنكي" /> تحويل بنكي</label>
+      <label><input type="radio" name="pay" value="باي بال" /> باي بال</label>
+      <span class="error"></span>
+    </fieldset>
+    <label class="span-2">ملاحظات اختيارية
+      <textarea name="notes" rows="2" placeholder="أي تفاصيل إضافية للطلب (اختياري)"></textarea>
+    </label>
+  </div>
+
+  <div class="form-actions">
+    <button class="btn" type="submit">تأكيد الطلب</button>
+  </div>
+
+  <p id="successMsg" style="display:none; color:green; font-weight:bold; margin-top:10px;">
+    تم تأكيد طلبك وسيتم التواصل معك في أقرب وقت.
+  </p>
+</form>
+
+
+    <p class="note" data-aos="fade-up" data-aos-delay="80">
+      *النتائج قد تختلف من شخص لآخر حسب نوع الشعر والحالة الصحية.
+    </p>
+  </div>
+</section>
+
+  <!-- فوتر -->
+  <footer class="footer">
+    <div class="container">
+      <div class="foot-grid">
+        <div>
+          <div class="brand">
+            <img src="image/logo.jpg" alt="Vivura Logo" class="logo-img-footer">
+            <strong>Vivura</strong>
+          </div>
+          <p class="muted">© <span id="year"></span> كل الحقوق محفوظة.</p>
+        </div>
+        <nav class="foot-links">
+          <a href="#faq">الأسئلة</a>
+          <a href="#order">اطلب الآن</a>
+          <a href="#">سياسة الخصوصية</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- مكتبات الطرف الثالث -->
+  <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- سكريبتات المشروع -->
+  <script src="./app.js"></script>
+</body>
+</html>
